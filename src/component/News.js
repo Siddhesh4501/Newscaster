@@ -11,8 +11,8 @@ const News =(props)=> {
 
     useEffect(() => {
         onchange(0);
-        console.log(total,article.length)
-    }, [])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []) 
     
     const onchange=async(pagechange)=>{
         setloading(true)
