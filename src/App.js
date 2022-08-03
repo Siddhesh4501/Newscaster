@@ -6,7 +6,7 @@ import News from './component/News';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const App =()=> {
       <div>
         <Navbar/>
 
-        <Switch>
+        <Routes>
 
 
         <Route exact path="/newsmonkey/">
@@ -42,7 +42,7 @@ const App =()=> {
 
 
 
-        </Switch>
+        </Routes>
 
 
 
