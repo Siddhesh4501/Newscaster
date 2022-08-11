@@ -38,3 +38,6 @@ News app which made using React.
 
 ## Specifc Keyword
 <img src="Images/specific.jpg" width="1100" height="600"/>
+
+### References
+- [News API](https://newsapi.org/)
