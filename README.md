@@ -18,7 +18,11 @@ News app which made using React.
     ```
     * At the project root run : 
     ```sh 
-    npm run dev
+    npm i
+    ```
+    * Then run : 
+    ```sh 
+    npm start
     ```
 
 ### Working Project 

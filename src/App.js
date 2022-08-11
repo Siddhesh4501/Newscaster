@@ -20,25 +20,21 @@ const App =()=> {
         <Routes>
 
 
-        <Route exact path="/newsmonkey/">
+        <Route exact path="/newscaster/" element={<News key="general" pagesize={9} contenttype="general"/> } />
         {/* <Route exact path={process.env.PUBLIC_URL + '/'}> */}
-            <News key="general" pagesize={9} contenttype="general"/>
-        </Route>
-        <Route exact path="/newsmonkey/business">
-            <News key="business" pagesize={9} contenttype="business"/>
-        </Route>
-        <Route exact path="/newsmonkey/entertainment">
-            <News key="entertainment" pagesize={9} contenttype="entertainment"/>
-        </Route>
-        <Route exact path="/newsmonkey/science">
-            <News key="science" pagesize={9} contenttype="science"/>
-        </Route>
-        <Route exact path="/newsmonkey/sports">
-            <News key="sports" pagesize={9} contenttype="sports"/>
-        </Route>
-        <Route exact path="/newsmonkey/technology">
-            <News key="technology" pagesize={9} contenttype="technology"/>
-        </Route>
+            
+        <Route exact path="/newscaster/business" element={<News key="business" pagesize={9} contenttype="business"/>}  />
+            
+        <Route exact path="/newscaster/entertainment" element={<News key="entertainment" pagesize={9} contenttype="entertainment"/>} />
+            
+        <Route exact path="/newscaster/science" element={<News key="science" pagesize={9} contenttype="science"/>}  />
+            
+        <Route exact path="/newscaster/sports" element={ <News key="sports" pagesize={9} contenttype="sports"/>} />
+           
+        <Route exact path="/newscaster/technology" element={<News key="technology" pagesize={9} contenttype="technology"/>} />
+
+        <Route exact path="/newscaster/search/:id"  element={<News pagesize={9}/>} />
+            
 
 
 
