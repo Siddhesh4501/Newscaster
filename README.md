@@ -28,13 +28,13 @@ News app which made using React.
 ### Working Project 
 
 ## General Purpose
-<img src="Images/general.jpg" width="700" height="900"/>
+<img src="Images/general.jpg" width="1100" height="600"/>
 
 ## Sports
-<img src="Images/sports.jpg" width="1000" height="600"/>
+<img src="Images/sports.jpg" width="1100" height="600"/>
 
 ## Science
-<img src="Images/science.jpg" width="1000" height="600"/>
+<img src="Images/science.jpg" width="1100" height="600"/>
 
 ## Specifc Keyword
-<img src="Images/specific.jpg" width="1000" height="600"/>
+<img src="Images/specific.jpg" width="1100" height="600"/>
